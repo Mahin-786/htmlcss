@@ -1,0 +1,21 @@
+h1{
+    /*border-left: 3px; */
+    border-width: 5px;
+    border-color: darkmagenta;
+    border-style: solid;
+    background-color: violet;
+    border-radius: 10px;
+    width: max-content;
+    padding: 20px 50px;   /*top bottom and left right*/
+    margin: 20px 50px;
+}
+
+.myDiv{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    color: darkblue;
+    font-size: 32px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}

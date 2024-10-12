@@ -1,0 +1,37 @@
+.btn{
+    background-color: coral;
+    height: 40px;
+    width: 90px;
+}
+
+.b1{
+    background-color: rgb(8, 189, 8);
+    height: 50px;
+    width: 200px;
+}
+
+.b2{
+    background-color: rgb(62, 62, 247);
+    height: 50px;
+    width: 200px;
+}
+
+.b3{
+    background-color: rgb(211, 27, 27);
+    height: 50px;
+    width: 200px;
+}
+
+.b4{
+    background-color: rgb(5, 247, 5);
+    height: 50px;
+    width: 200px;
+}
+
+body{
+    /*background-color:#7BEFF4;
+    hsl,hsla,rgb,rgbr,hue*/
+
+    background: linear-gradient(coral,orange,violet,pink,yellow);
+    
+}

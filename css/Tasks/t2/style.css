@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(234, 241, 131);
+}
+
+h1{
+    border-color: rgb(102, 25, 2);
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin: 50px;
+    background-color: rgb(240, 141, 116);
+    height: 30px 50px;
+    width: max-content;
+    font-size: 50px;
+    color:rgb(90, 3, 51) ;
+}
+
+p{
+    margin: 50px;
+    color:rgb(0, 30, 130);
+    font-size: 20px;
+    font-style: italic;
+    line-height: 2;
+}
+
+
+img{
+    float: right;
+    height: 300px;
+    border-radius: 10px;
+    border-style: solid
+}
+
+button{
+    background-color: rgb(238, 238, 58);
+    color: rgb(255, 41, 3);
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px 40px;
+    font-size: 20px;
+    margin: 40px;
+}
+
+button:hover{
+    background-color: orange;
+}

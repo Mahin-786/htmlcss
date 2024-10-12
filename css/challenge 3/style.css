@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-color:hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500,600;
+    Font-size: 13px;
+}
+
+.container{
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+}
+
+.box{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box1{
+    grid-column: 1/3;
+    background-color: hsl(263, 55%, 52%);
+    padding: 30px;
+}
+
+.box2{
+    grid-column: 3/4;
+    background-color: hsl(217, 19%, 35%);
+    padding: 30px;
+}
+
+.box3{
+    grid-column: 4/5;
+    grid-row: 1/3;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+}
+
+.box4{
+    grid-column: 1/2;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+}
+
+.box5{
+    grid-column: 2/4;
+    background-color: hsl(219, 29%, 14%);
+    padding: 30px;
+}
+
+.head{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.name h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+
+.name p{
+    color: white;
+    opacity: 50%;
+    font-size: 14px;
+}
+
+img{
+    border-radius: 50px;
+    border: 3px;
+    border-color:  hsl(263, 55%, 52%) ;
+    border-style: solid;
+}
+
+h2{
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+
+.box1 p{
+    color: white;
+    opacity: 70%;
+    font-size: 16px;
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    
+}
+
+.name1 h3{
+    color: white;
+}
+
+.head1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.box2 p{
+    color: white;
+    opacity: 70%;
+    font-size: 18px;
+}
+
+.name1 h3{
+    font-size: 16px;
+}
+
+.name1 p{
+    font-size: 14px;
+}
+
+.box1 h2{
+    font-size: 22px;
+    
+}
+
+.head2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.box3 h2{
+    color: hsl(217, 19%, 35%);
+}
+
+.box3 p{
+    color: hsl(217, 19%, 35%);
+    opacity: 70%;
+    font-size: 18px;
+}
+
+.name2 h3{
+    font-size: 16px;
+    color: hsl(217, 19%, 35%);
+}
+
+.name2 p{
+    font-size: 14px;
+}
+
+.box2 h2{
+    font-size: 20px;
+}
+
+.head3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box4 h2{
+    color:  hsl(217, 19%, 35%);
+}
+
+.box4 p{
+    color: hsl(219, 29%, 14%);
+    opacity: 70%;
+    font-size: 16px;
+}
+
+.name3 p{
+    font-size: 14px;
+}
+
+.name3 h3{
+    color: hsl(217, 19%, 35%);
+}
+
+.box3 h2{
+    font-size: 22px;
+}
+
+.head4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.name4 h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+.box4 h2{
+    font-size: 24px;
+}
+
+.name4 p{
+    color: hsl(0, 0%, 100%);
+    opacity: 50%;
+    font-size: 14px;
+}
+
+.box5 h2{
+    font-size: 20px;
+}
+
+.box5 p{
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    opacity: 50%;
+}
